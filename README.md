@@ -10,7 +10,7 @@
  # 
 
 # 1.	Generation of random game sets or events
-# Make the food display at random location and make the initial location of the snake random each time (But be careful not to make the location too closed to the edge).  -->
+# Make the food display at random location and make the initial location of the snake random each time (But be careful not to make the location too closed to the edge). 
 # 2.	Data structures for storing game status
 # Use a two-element array to store the coordinate of the bait, where its data type is integer. Use an array, whose elements are two-element array coordinate record, to store the snake location (such as snake’s head and tail, and each part of the snake body)
 # 3.	Dynamic memory management
