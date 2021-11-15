@@ -1,5 +1,36 @@
+#include <iostream>
+#include <cstdlib>
+#include <stdlib.h>
+using namespace std;
+
 int main(){
+  int **snake=new int *[675];
+  for (int i=0;i<2;i++){
+    snake[i]=new int [2];
+  }
+  int food[2];
+  char area[47][17];
+  int length=1;
+  char input;
+  snake_initialization(snake);
+  food_initialization(food,snake,length);
+  area_initialization(area);
+  insert_snake_food(snake,length,food,area);
+  print_area(area);
+  void fileout(snake,food);
+  Void continue();
 
-
-return 0;
+  
+  while (true){      //在蛇撞到边界时会call你写的游戏结束并打印分数的函数，在那里break
+    cin>>input;      //可以input w,s,a,d,pause,continue
+    if ((input='w')||(input='s')||(input='a')||(input='d')){
+      move(input,snake,length,area,food);
+      area_initialization(area);
+      insert_snake_food(snake,length,food,area);
+      system("clear");
+      print_area(area);
+    }
+  }
+  return 0;
 }
+
