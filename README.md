@@ -9,15 +9,14 @@
 
 
 # 1.	Generation of random game sets or events
-# Make the food display at random location and make the initial location of the snake random each time (But be careful not to make the location too close to the edge). 
-But the snake cannot overlap with the food.  
+# Make the food display at random location and make the initial location of the snake random each time (But be careful not to make the location too close to the edge). But the snake cannot overlap with the food.  
 # 2.	Data structures for storing game status
 # Use a two-element array to store the coordinate of the bait, where its data type is integer. Use an array, whose elements are two-element array coordinates record, to store the snake location (such as snake’s head and tail, and each part of the snake body). Use a dynamic array to store the historical scores. 
 # 3.	Dynamic memory management
 # Each time, we will use a function to create a bait and its location, after the snake eats the bait or bait disappears, we will call a stop for this function and its location coordinate will disappear. If the game fails, we will delete user’s former suspension records. Every time the game ends, the score of this game will be appended to the end of the vector storing historical scores.
 # 4.	File input/output (e.g., for loading/saving game status)
 # After suspension, he can save his game status and quit the game, after he comes back and re-enters the game, he can retrieve his game process (eg. length, location) and recover the environment, then continue his game. So when the user choose to suspend, we should output a file (eg. named as “Suspension.txt”) to record user’s situation a 2D array, location of the food ( 2D array ) length (an integer). When the user comes back, we will input this file (“Suspension.txt”) and recover his game process. 
-When the game ends, we display the length of snake on the screen, at the same time, we input a historical highest score file(“historical_highest_score.txt”), if the file does not exist, we create one then. And we make a comparison of length and historical records, if the current length is higher, then we renew the historical_highest_score.txt. 
+# When the game ends, we display the length of snake on the screen, at the same time, we input a historical highest score file(“historical_highest_score.txt”), if the file does not exist, we create one then. And we make a comparison of length and historical records, if the current length is higher, then we renew the historical_highest_score.txt. 
 # 5.	Program codes in multiple files
 # Use header to divide different functions and implement them separately.
 
