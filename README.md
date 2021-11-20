@@ -21,7 +21,7 @@
 # Use header to divide different functions and implement them separately.
 
 # Instructions:
-# Compile as usual. After compilation, run "snake". Users can input “w”, “s”, “a” or “d” to move the snake upwards, downwards, left or right. If users want to pause the game, input “pause” and the game status will be saved. Next time if he or she wants to continue last unfinished game, input “continue”.
+# Compile as usual. After compilation, run "snake". Users can input “w”, “s”, “a” or “d” to move the snake upwards, downwards, left or right. If users want to pause the game, input “pause” and the game status will be saved. Next time if he or she wants to continue last unfinished game, input “continue” and the game status will be recovered.
 
 # Library included:
 # We use \<cstdlib> to clear the whole screen each time when the snake moves. 
