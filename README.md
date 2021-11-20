@@ -3,7 +3,7 @@
  # Author 2: Gao Huan Yan, UID:3035772846
  #
  # Description of our game “Snake”:
- # A snake will appear at a random location in the game area (not too close to the boundary). Users can control the movement of snake by inputting “w”, “s”, “a” and “d”, with each representing upwards, downwards, left and right. Food will appear randomly, and users need to control the snake to eat food. When the snake eats food, it grows longer and gains scores. The snake cannot touch the wall, otherwise it will be killed and game ends.
+ # A snake will appear at a random location in the game area (not too close to the boundary). Users can control the movement of snake by inputting “w”, “s”, “a” and “d”, with each representing upwards, downwards, left and right. Food will appear randomly, and users need to control the snake to eat food. When the snake eats food, it grows longer and gains scores. The snake cannot touch the wall, otherwise it will be killed and game ends. The score will be shown then.
  # Our system records the highest score of the user. When the record is broken, the user will be congratulated.
  # Users can pause the game and exit any time, and the game status will be kept. Users can continue their last attempt next time by inputting “continue”. However, when the snake is dead, the game status will be cleared.
 
