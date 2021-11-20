@@ -24,7 +24,7 @@
 # Compile as usual. After compilation, run "snake". Users can input “w”, “s”, “a” or “d” to move the snake upwards, downwards, left or right. If users want to pause the game, input “pause” and the game status will be saved. Next time if he or she wants to continue last unfinished game, input “continue”.
 
 # Library included 
-# We use \<cstdlib> to clear the whole screen when we call the end of game. 
+# We use \<cstdlib> to clear the whole screen each time when the snake moves. 
 # We use \<stdlib.h> to produce the random location of food and snake. 
 # We use \<fstream> to include the file I/O for inputting and outputting files. 
 # We use \<sstream> to use the getline function to read the whole line of input files. 
