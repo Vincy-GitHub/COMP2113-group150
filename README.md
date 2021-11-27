@@ -2,12 +2,12 @@
  # Author 1: Huang Wenqi, UID:3035772860
  # Author 2: Gao Huan Yan, UID:3035772846
  #
- # Description of our game “Snake”:
+ # Description and Game Rules of our game “Snake”:
  # A snake will appear at a random location in the game area (not too close to the boundary). Users can control the movement of snake by inputting “w”, “s”, “a” and “d”, with each representing upwards, downwards, left and right. Users can accelerate the movement of snake by typing more than a character at a time. Food will appear randomly, and users need to control the snake to eat food. When the snake eats food, it grows longer and gains scores. The snake cannot touch the wall, otherwise it will be killed and game ends. The score will be shown then.
  # Our system records the highest score of the user. When the record is broken, the user will be congratulated.
  # Users can pause the game and exit any time, and the game status will be kept. Users can continue their last attempt next time by inputting “continue”. However, when the snake is dead, the game status will be cleared.
  
-# list of features implemented:
+# List of features implemented:
 # 1.	Generation of random game sets or events
 # A snake and a food will be generated randomly at the beginning of the game. The snake will not be too close to the boundary. The food cannot overlap with the snake. Every time the food is eaten by the snake, another food will appear randomly.
 # 2.	Data structures for storing game status
